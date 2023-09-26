@@ -1,0 +1,6 @@
+cloud:
+  kubernetes:
+    apiServerUrl: https://127.0.0.1:5443
+    caCertFileUrl: ${user.dir}/cloud-discovery-example/secret/ca-alpha.crt
+    oauth2Token: eyJhbXXX
+    includeNamespaces: infra, vip

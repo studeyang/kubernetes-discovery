@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.github.open.discovery.autoconfig.DiscoveryClientAutoConfiguration,\
+  com.github.open.discovery.autoconfig.ReactiveDiscoveryClientAutoConfiguration

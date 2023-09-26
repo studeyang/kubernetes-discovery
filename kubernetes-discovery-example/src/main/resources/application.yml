@@ -1,0 +1,6 @@
+cloud:
+  kubernetes:
+    apiServerUrl: ${apiServerUrl}
+    insecureSkipTlsVerify: true
+    oauth2Token: ${oauth2Token}
+    includeNamespaces: infra, vip
